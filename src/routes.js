@@ -23,25 +23,16 @@ const routes = [
     {
         method: "POST",
         path: "/posts",
-        options: {
-            auth: 'simple'
-        },
         handler: addPostHandler
     },
     {
         method: "PUT",
         path: "/posts/{id}",
-        options: {
-            auth: 'simple'
-        },
         handler: updatePostByIdHandler
     },
     {
         method: "DELETE",
         path: "/posts/{id}",
-        options: {
-            auth: 'simple'
-        },
         handler: deletePostByIdHandler
     }
 ];
