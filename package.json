@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/server",
-    "migrate": "node database/migration"
+    "migrate": "node database/migration",
+    "db": "node database/createDatabase"
   },
   "author": "Juan Angela Alma",
   "license": "ISC",
